@@ -61,7 +61,13 @@ Swal.fire({
                                                                                             confirmButtonText: 'Ok',
                                                                                         }).then((result) => {
                                                                                             if (result.isConfirmed) {
-                                                                                                
+                                                                                                Swal.fire({
+                                                                                                    imageUrl: 'https://stickerly.pstatic.net/sticker_pack/chFOsiBEHmprfgMBqw/ADV6PP/3/68a464b2-ce4b-4f18-9c63-2f804358c9cf.png',
+                                                                                                    imageHeight: 450,
+                                                                                                    imageAlt: 'Flores',
+                                                                                                    showConfirmButton: false,
+                                                                                                    allowOutsideClick: false
+                                                                                                })
                                                                                             }
                                                                                         });
                                                                                     }
